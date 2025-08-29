@@ -1,30 +1,8 @@
 # Ozirus's Dilemma: Predict, Decide, Prove
 
-This repo holds a LaTeX paper and examples for **Ozirus's Dilemma**.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PENDING.svg)](https://doi.org/10.5281/zenodo.PENDING)
 
-- **SDA**: predicts near-term risk and splits minutes across actions.
-- **PCP**: turns the plan into small integers and checks with math.
-- **RGM**: locks the plan with a Merkle root and a signature.
+## How to cite
+See CITATION.cff, or use this:
 
-## Build the PDF
-
-**On your computer (needs TeX Live + latexmk):**
-
-make
-
-**On GitHub:** Every push to `main` builds the PDF and uploads it as an artifact.
-
-## Where things are
-- `src/Ozirus_Dilemma.tex` — the paper.
-- `Makefile`, `.latexmkrc` — local build helpers.
-- `.github/workflows/latex.yml` — GitHub build.
-
-## License
-- **Code & pseudocode:** Apache-2.0 — see `LICENSE-CODE`.
-- **Paper text & figures:** CC BY 4.0 — see `LICENSE-DOCS`.
-
-See `NOTICE` for how this split works.
-
-## Read the Paper
-
-- **PDF:** [View the Ozirus Dilemma PDF](docs/Ozirus_Dilemma.pdf)
+Morency, O. (2025). *Ozirus's Dilemma: Predict, Decide, Prove* (v1.0.0). https://doi.org/10.5281/zenodo.PENDING)
