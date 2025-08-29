@@ -1,0 +1,26 @@
+{
+  "summary": "Resume script complete.",
+  "pass": 16,
+  "fail": 0,
+  "warn": 1,
+  "messages": [
+    "PASS - PDF exists and looks like a PDF (docs/Ozirus_Dilemma.pdf)",
+    "PASS - README already has PDF + landing page links",
+    "PASS - README tagline present",
+    "PASS - README has a DOI badge (may be PENDING)",
+    "PASS - docs/index.md already exists",
+    "PASS - Created demo/sda_pcp_rgm_demo.py",
+    "PASS - LICENSE-CODE present",
+    "PASS - LICENSE-DOCS present",
+    "PASS - NOTICE present",
+    "PASS - CITATION.cff has repo URL; DOI update skipped (no --doi given)",
+    "WARN - Release step skipped (run with --make-release to try)",
+    "PASS - Committed local changes",
+    "PASS - README: links OK",
+    "PASS - PDF: present",
+    "PASS - Landing page: present",
+    "PASS - Demo: present",
+    "PASS - CITATION: repo URL present"
+  ],
+  "ok": true
+}

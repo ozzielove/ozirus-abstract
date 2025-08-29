@@ -20,5 +20,8 @@
 build/
 dist/
 *.bak_*
+<<<<<<< HEAD
 *.bak_*
+=======
+>>>>>>> 9a2cfe5ac9c4b0dd476f95d481b988ee4beb8e09
 *.tmp
