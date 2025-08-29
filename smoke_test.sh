@@ -134,14 +134,34 @@ else
   warn "No LaTeX source" "You already ship the PDF. Keeping .tex is optional"
 fi
 
-finish_report
+# Write JSON report
+{
+  echo '{'
+  echo "  \"summary\": \"Smoke test complete.\","
+  echo "  \"pass\": $PASS,"
+  echo "  \"fail\": $FAIL,"
+  echo "  \"warn\": $WARN,"
+  echo "  \"remote\": \"$REMOTE\","
+  echo "  \"messages\": ["
+  for i in "${!msgs[@]}"; do
+    sep=","
+    [ "$i" = "$((${#msgs[@]}-1))" ] && sep=""
+    printf '    "%s"%s\n' "${msgs[$i]//\"/\\\"}" "$sep"
+  done
+  echo "  ],"
+  if [ "$FAIL" -eq 0 ]; then
+    echo "  \"ok\": true"
+  else
+    echo "  \"ok\": false"
+  fi
+  echo '}'
+} > "$REPO_JSON"
 
-if [ "$FAIL" -gt 0 ]; then
-  echo
-  echo "Result: FAIL ($FAIL blocker issue(s)). See repo_smoke_report.json for details." >&2
-  exit 1
-else
-  echo
-  echo "Result: OK (no blockers). Warnings: $WARN. See repo_smoke_report.json for details."
+echo
+if [ "$FAIL" -eq 0 ]; then
+  echo "Result: OK (no blockers). Warnings: $WARN. See $REPO_JSON for details."
   exit 0
-fi
+else
+  echo "Result: FAILED ($FAIL blockers). Warnings: $WARN. See $REPO_JSON for details."
+  exit 1
+fifi
