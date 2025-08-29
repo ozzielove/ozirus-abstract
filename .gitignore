@@ -19,3 +19,4 @@
 # build dirs
 build/
 dist/
+*.bak_*
