@@ -1,4 +1,6 @@
 📄 **Download:** [Ozirus_Dilemma.pdf](docs/Ozirus_Dilemma.pdf) • 🌐 [Landing page](https://ozzielove.github.io/ozirus-dilemma/)
+Predict short-horizon risk, allocate minutes, and prove it (CRT Predict short-horizon risk, allocate minutes, and prove it (CRT -> Merkle -> signature).
+
 
 Predict short-horizon risk, allocate minutes, and prove it (CRT -> Merkle -> signature).
 
