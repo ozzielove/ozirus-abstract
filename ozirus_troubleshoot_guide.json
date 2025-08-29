@@ -1,0 +1,89 @@
+{
+  "title": "🛠️ Fix It Guide for Ozirus Dilemma — For Kids (and Newbies)",
+  "audience": "Anyone — even if you've never used a terminal before!",
+  "troubleshooting_steps": [
+    {
+      "issue": "🚫 'command not found' or weird error in script",
+      "explanation": "The computer doesn't understand a piece of the script (maybe a small typo).",
+      "steps": [
+        "Open the script file (like smoke_test.sh).",
+        "Go to the line number the error shows (like line 15).",
+        "Fix spacing like this: 'if[ 0 -eq 1 ]' {
+  "title": "🛠️ Fix It Guide for Ozirus Dilemma — For Kids (and Newbies)",
+  "audience": "Anyone — even if you've never used a terminal before!",
+  "troubleshooting_steps": [
+    {
+      "issue": "🚫 'command not found' or weird error in script",
+      "explanation": "The computer doesn't understand a piece of the script (maybe a small typo).",
+      "steps": [
+        "Open the script file (like smoke_test.sh).",
+        "Go to the line number the error shows (like line 15).",
+        "Fix spacing like this: 'if[ 0 -eq 1 ]' {
+  "title": "Fix It Guide for Ozirus Dilemma - For Kids (and Newbies)",
+  "audience": "Anyone - even if you've never used a terminal before!",
+  "troubleshooting_steps": [
+    {
+      "issue": "'command not found' or weird error in script",
+      "explanation": "The computer doesn't understand a piece of the script (maybe a small typo).",
+      "steps": [
+        "Open the script file (like smoke_test.sh).",
+        "Go to the line number the error shows (like line 15).",
+        "Fix spacing like this: 'if[ 0 -eq 1 ]' should be 'if [ 0 -eq 1 ]'.",
+        "If it says 'unbound variable', it means a variable (like REPO_JSON) wasn't set yet - define it near the top.",
+        "If stuck, ask a helper or post the exact error in an issue."
+      ]
+    },
+    {
+      "issue": "'Permission denied' when running a script",
+      "explanation": "Your computer won't run the file yet.",
+      "steps": [
+        "In Terminal: chmod +x resume_all.sh",
+        "Then run it: ./resume_all.sh"
+      ]
+    },
+    {
+      "issue": "Can't push to GitHub (push rejected)",
+      "explanation": "GitHub has new changes that you don't have yet.",
+      "steps": [
+        "git pull --rebase origin main",
+        "If it asks to fix conflicts: open files, keep the lines you want, then: git add -A; git rebase --continue",
+        "Try again: git push origin main"
+      ]
+    },
+    {
+      "issue": "Website (Pages) shows 404 or doesn't load",
+      "explanation": "GitHub Pages must point to your /docs folder.",
+      "steps": [
+        "GitHub -> your repo -> Settings -> Pages.",
+        "Build and deployment: Source = Deploy from a branch.",
+        "Branch = main, Folder = /docs, then Save.",
+        "Wait 1-2 minutes and try your site again."
+      ]
+    },
+    {
+      "issue": "Smoke test says something is missing",
+      "explanation": "A required piece is missing (like a link or a file).",
+      "steps": [
+        "Open repo_smoke_report.json and look for FAIL or WARN.",
+        "If it says 'README: missing link', add the PDF link in README.",
+        "If it says 'PDF missing', be sure the file is docs/Ozirus_Dilemma.pdf."
+      ]
+    },
+    {
+      "issue": "'syntax error near unexpected token' in resume_all.sh",
+      "explanation": "There's a strange character or missing space.",
+      "steps": [
+        "Look near the line number in the error (like 158).",
+        "Fix spacing like: if[0] should be: if [ 0 ]",
+        "Use normal quotes only: ' and \" (not fancy ones)."
+      ]
+    }
+  ],
+  "quick_tips": [
+    "Keep the repo clean: delete .bak or .tmp files.",
+    "Make scripts runnable: chmod +x your-script.sh",
+    "README should link to your PDF and your website page.",
+    "GitHub Pages must point to /docs."
+  ],
+  "final_words": "You're doing great! If a red error pops up, slow down, read the message, and fix one small thing at a time."
+}
