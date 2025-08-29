@@ -24,3 +24,7 @@ make
 - **Paper text & figures:** CC BY 4.0 — see `LICENSE-DOCS`.
 
 See `NOTICE` for how this split works.
+
+## Read the Paper
+
+- **PDF:** [View the Ozirus Dilemma PDF](docs/Ozirus_Dilemma.pdf)
