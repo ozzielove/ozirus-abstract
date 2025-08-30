@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+1e02fd8221f9d7e79c3fcab81e51ff0575204866 refs/heads/codex/create-private-repo-for-ozirus-core
+623998c4de753327eefd01a716dea08af542a975 refs/heads/main
+1e02fd8221f9d7e79c3fcab81e51ff0575204866 refs/pull/1/head
+6c51b8ffcd27bb924124dc6fd367f9e0274d5283 refs/tags/v1.0.0
+a9c22f5bc4ea48b5f765133d862bb417a4d698e8 refs/tags/v1.0.1
