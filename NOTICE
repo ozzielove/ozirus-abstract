@@ -1,9 +1,0 @@
-This repository has two kinds of content with different licenses:
-
-1) CODE (algorithms, pseudocode, scripts, CI, Makefiles):
-   Licensed under the Apache License, Version 2.0 (see LICENSE-CODE).
-
-2) DOCS (the manuscript text, figures, diagrams, and PDF outputs):
-   Licensed under the Creative Commons Attribution 4.0 International License (see LICENSE-DOCS).
-
-If you contribute, you agree your contributions are licensed under the matching license above.

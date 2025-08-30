@@ -1,9 +1,0 @@
-{"tests": [
-  {"name":"PDF exists and looks like a PDF","status":"PASS","severity":"info","note":""},
-  {"name":"README links to the PDF","status":"PASS","severity":"info","note":""},
-  {"name":"LICENSE-CODE is Apache 2.0","status":"PASS","severity":"info","note":""},
-  {"name":"LICENSE-DOCS is CC BY 4.0","status":"PASS","severity":"info","note":""},
-  {"name":"NOTICE explains the two-license split","status":"PASS","severity":"info","note":""},
-  {"name":"CITATION.cff has key fields and a real repo URL","status":"PASS","severity":"info","note":""},
-  {"name":"Git remote set","status":"PASS","severity":"info","note":"git@github.com:ozzielove/ozirus-dilemma.git"},
-  {"name":"Found src/Ozirus_Dilemma.tex (optional)","status":"PASS","severity":"info","note":""}
