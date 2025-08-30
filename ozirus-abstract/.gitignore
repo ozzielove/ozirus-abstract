@@ -1,0 +1,7 @@
+venv/
+.env
+*.log
+__pycache__/
+ozirus-core*
+ozirus-core.mirror.git/
+*.bundle
