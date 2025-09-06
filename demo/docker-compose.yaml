@@ -1,0 +1,5 @@
+services:
+  ozirus:
+    image: ozirus-abstract
+    ports:
+      - "8080:8080"
