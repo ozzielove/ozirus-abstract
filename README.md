@@ -45,3 +45,4 @@ python examples/cybersecurity_simulation.py
 
 The source code in this repository is licensed under the **Apache 2.0 License**.
 The documentation is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+[![Docs Links](https://img.shields.io/badge/docs_links-checks)](#)
